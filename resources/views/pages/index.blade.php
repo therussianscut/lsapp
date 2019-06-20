@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <p> This is the Index page</p>
+    <p> {{$title}}</p>
         <h3> This is a little sub-heading</h3>
 
 

@@ -16,9 +16,9 @@
         @foreach($services as $service)
 
 
-            <uL>
+            <uL class="list-group">
 
-            <li>{{$service}}</li>
+            <li class="list-group-item list-group-item-action">{{$service}}</li>
 
             </uL>
             @endforeach

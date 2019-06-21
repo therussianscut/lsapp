@@ -14,6 +14,19 @@
 
     <p> {{$posts->body}}</p>
 
+    <p><a href="/posts/{{$posts->id}}/edit"> Edit</a></p>
+
+
+
+    <form method="post" action="/posts/{{$posts->id}}">
+        @method('delete')
+        @csrf
+
+
+        <button type="submit" class="btn btn-default">Delete Post</button>
+    </form>
+
+
 
 
 @endsection

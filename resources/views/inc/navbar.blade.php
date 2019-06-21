@@ -1,4 +1,4 @@
-<ul class="nav">
+<ul class="nav" style="background-color: #1b1e21">
 @yield('navbar')
     <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
@@ -11,6 +11,9 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="/pages/about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/posts">Blog</a>
     </li>
 
 </ul>

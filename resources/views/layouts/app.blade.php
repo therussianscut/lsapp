@@ -18,6 +18,8 @@
 
 <div class="container" style="margin-top: 50px">
 
+    @include('inc.messages')
+
     @yield('content')
 
 
